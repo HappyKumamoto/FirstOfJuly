@@ -33,9 +33,9 @@ class Kam {
         this.rZ  = rand(0,10)/10;
 
         this.sty.position = "fixed";
-        this.sty.width = "37px";//紙一枚の大きさの設定
-        this.sty.height = "14px";
-        this.sty.borderRadius = "5px";//角丸に
+        this.sty.width = "25px";//紙一枚の大きさの設定
+        this.sty.height = "25px";
+        //this.sty.borderRadius = "5px";//角丸に
 
         this.sty.backgroundColor = COLORS[//色をランダムに
             rand(0,COLORS.length-1)];
