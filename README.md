@@ -1,2 +1,2 @@
-# FirstOfJuly
+# SHIBA GAME
 Game
