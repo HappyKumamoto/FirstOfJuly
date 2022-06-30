@@ -79,7 +79,8 @@ function stop() {
         //game.bgm2.play();        //鉄琴の音色//220630音停止中
         
         game.displayArea.innerText = `${seconds}秒でした！
-        ＼すばらしい！／`;
+        ＼すばらしい1年になりますように!／
+        ＼HAPPY BIRTHDAY SHIBA !!／`;
         
         document.body.appendChild(sn);   //snow.jsで回転する絵文字を降らせる
         snow.innerText = emojis[emojiNo];
