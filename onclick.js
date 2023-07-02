@@ -99,7 +99,7 @@ function stop() {
         
         document.body.appendChild(sp);
         special.innerText = emojis[emojiNo];
-        appendScript(sp);
+        //appendScript(sp);
         
         //document.body.appendChild(yu);  //雪の結晶を降らせるのは停止230702
         //yuki.innerText = `❄️`;
