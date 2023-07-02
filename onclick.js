@@ -70,8 +70,12 @@ function stop() {
         //game.bgm1.loop = true;//bgm繰り返し
         
         game.displayArea.innerText = `${seconds}秒でした！
-        おめでとうございます!! `;
-        document.body.appendChild(el);  //kami.jsで紙吹雪を出す
+        おめでとうございます!! 
+        ＼HAPPY BIRTHDAY SHIBA !!／`;  //追加230702
+        //document.body.appendChild(el);  //kami.jsで紙吹雪を出す・・・休止中230702
+        
+        document.body.appendChild(sn);   //snow.jsで回転する絵文字を降らせる
+        snow.innerText = emojis[emojiNo];
         
     }else if( (ss[ssNo]) <= seconds && seconds < (ss[ssNo]+1) ) {
         //( 当てる秒数 + 1 )未満ならば 「すばらしい」を表示 + 効果音
@@ -80,7 +84,7 @@ function stop() {
         
         game.displayArea.innerText = `${seconds}秒でした！
         ＼すばらしい!／
-        ＼HAPPY BIRTHDAY SHIBA !!／`;
+        ＼HAVE A GOOD DAY SHIBA !!／`;  //BIRTHDAYから変更230702
         
         document.body.appendChild(sn);   //snow.jsで回転する絵文字を降らせる
         snow.innerText = emojis[emojiNo];
