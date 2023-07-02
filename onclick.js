@@ -8,11 +8,11 @@ el.src = "kamiFu.js";
 let sn = document.createElement("script");//絵文字が降るsnow.jsを持ってくる
 sn.src = "snow.js";
 
-//let sp = document.createElement("script");//「おしい」のときのspecial.js
-//sp.src = "special.js";
+let sp = document.createElement("script");//「おしい」のときのspecial.js
+sp.src = "special.js";
 
-let yu = document.createElement("script"); //おしいのときにyuki.js
-yu.src = "yuki.js";
+//let yu = document.createElement("script"); //おしいのときにyuki.js 雪の結晶は停止 230702
+//yu.src = "yuki.js";
 
 const game = { //gameオブジェクトの宣言
     startTime: null,
