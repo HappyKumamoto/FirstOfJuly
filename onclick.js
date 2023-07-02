@@ -71,7 +71,7 @@ function stop() {
         
         game.displayArea.innerText = `${seconds}秒でした！
         おめでとうございます!! 
-        ＼HAPPY BIRTHDAY SHIBA !!／`;  //追加230702
+        ＼HAVE A NICE DAY SHIBA !!／`;  //追加230702
         //document.body.appendChild(el);  //kami.jsで紙吹雪を出す・・・休止中230702
         
         document.body.appendChild(sn);   //snow.jsで回転する絵文字を降らせる
