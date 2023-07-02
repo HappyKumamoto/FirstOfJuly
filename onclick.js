@@ -70,7 +70,8 @@ function stop() {
         //game.bgm1.loop = true;//bgm繰り返し
         
         game.displayArea.innerText = `${seconds}秒でした！
-        おめでとうございます!! 
+        すごい〜!!
+        ＼(╹◡╹)/
         ＼HAVE A NICE DAY SHIBA !!／`;  //追加230702
         //document.body.appendChild(el);  //kami.jsで紙吹雪を出す・・・休止中230702
         
@@ -98,7 +99,7 @@ function stop() {
         
         document.body.appendChild(sp);
         special.innerText = emojis[emojiNo];
-        //appendScript(sp);
+        appendScript(sp);
         
         //document.body.appendChild(yu);  //雪の結晶を降らせるのは停止230702
         //yuki.innerText = `❄️`;
