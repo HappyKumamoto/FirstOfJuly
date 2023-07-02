@@ -96,11 +96,11 @@ function stop() {
         
         //game.bgm3.play();    //(新 チャンチャン)(旧 残念な感じのジングル)//220630音停止中
         
-        //document.body.appendChild(sp);
-        //special.innerText = emojis[emojiNo];
+        document.body.appendChild(sp);
+        special.innerText = emojis[emojiNo];
         //appendScript(sp);
         
-        document.body.appendChild(yu);
+        //document.body.appendChild(yu);  //雪の結晶を降らせるのは停止230702
         //yuki.innerText = `❄️`;
     }
   //document.body.onclick = null; (二度目禁止「すばらしい」で効かなかった為上に移動)
